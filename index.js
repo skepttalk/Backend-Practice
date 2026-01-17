@@ -1,10 +1,11 @@
 
 const express = require("express");
+import { Router } from "express";
 
 const app = express();
 const port = 5050;
 
-app.get("/skill", async (req, res) => {
+app.get("/Crime&Fund", async (req, res) => {
   const { state } = req.query;
 
   if (!state) {
