@@ -1,11 +1,9 @@
-
 const express = require("express");
-import { Router } from "express";
 
 const app = express();
 const port = 5050;
 
-app.get("/Crime&Fund", async (req, res) => {
+app.get("/skill", async (req, res) => {
   const { state } = req.query;
 
   if (!state) {
@@ -32,13 +30,18 @@ app.get("/Crime&Fund", async (req, res) => {
     const combinedResult = {
       state,
       damages: data1.records ?? [],
-       Disaster_fund: data2.records ?? []
+      Disaster_fund: data2.records ?? [],
     };
 
-     res.send(JSON.stringify({
-      combinedResult
-}, null, 2));
-
+    res.send(
+      JSON.stringify(
+        {
+          combinedResult,
+        },
+        null,
+        2
+      )
+    );
   } catch (err) {
     res.status(500).json({ error: "Failed to fetch data" });
   }
@@ -47,5 +50,3 @@ app.get("/Crime&Fund", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
-
