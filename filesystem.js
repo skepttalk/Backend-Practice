@@ -13,7 +13,7 @@ const CONFIG_FILE = path.join(__dirname, "config.json");
 // We block the code here because we NEED the port
 // before we can start the server.
 // ==========================================
-let APP_NAME = "Todo API";
+// let APP_NAME = "Todo API";
 
 let uid =0;
 
@@ -21,8 +21,8 @@ try {
   // Read the config file Synchronously
   const configData = fs.readFileSync(CONFIG_FILE, "utf8");
   const config = JSON.parse(configData);
-  PORT = config.port ?? 3000;
-  APP_NAME = config.app_name;
+  PORT = config.PORT ?? 3000;
+  APP_NAME = config.APP_NAME;
   console.log("✅ Configuration loaded successfully.");
 } catch (err) {
   console.error("⚠️ Could not load config file, using defaults.");
