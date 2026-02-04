@@ -16,13 +16,9 @@ fs.readFile(DB_FILE, "utf8", (err, data) => {
   
   let  dataArr = data.split("\r\n");
   let headers=dataArr[0].split(",");
-  console.log(headers);
 
 
-
-
-  const rows = dataArr.slice(1);
-
+  const rows = dataArr.slice();
 
   const jsonData = rows.map(row => {
   const rowDataArrrow=row.split(",");
@@ -31,13 +27,14 @@ fs.readFile(DB_FILE, "utf8", (err, data) => {
   headers.forEach((header,idx)=>{
     dataObject[header]=rowDataArrrow[idx];
   })
-  console.log(dataObject,"Data Object");
+  return dataObject;
   });
 
-  
-  console.log("JSON Data Converted",headers);
 
-  fs.writeFile(NEW_FILE, JSON.stringify(headers, null, 2), (err) => {
+  
+  console.log("JSON Data Converted",jsonData);
+
+  fs.writeFile(NEW_FILE, JSON.stringify(jsonData, null, 2), (err) => {
     if (err) {
       console.log("Error writing JSON:", err);
       return;
@@ -45,3 +42,6 @@ fs.readFile(DB_FILE, "utf8", (err, data) => {
     console.log(" JSON File Saved Successfully:", NEW_FILE);
   });
 });
+
+
+

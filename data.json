@@ -1,6 +1,215 @@
 [
-  "Year",
-  "Month",
-  "CPI-C Inflation (percent)",
-  "WPI Inflation (percent)"
+  {
+    "Year": "Year",
+    "Month": "Month",
+    "CPI-C Inflation (percent)": "CPI-C Inflation (percent)",
+    "WPI Inflation (percent)": "WPI Inflation (percent)"
+  },
+  {
+    "Year": "2017",
+    "Month": "April",
+    "CPI-C Inflation (percent)": "3",
+    "WPI Inflation (percent)": "3.9"
+  },
+  {
+    "Year": "2017",
+    "Month": "May",
+    "CPI-C Inflation (percent)": "2.2",
+    "WPI Inflation (percent)": "2.3"
+  },
+  {
+    "Year": "2017",
+    "Month": "June",
+    "CPI-C Inflation (percent)": "1.5",
+    "WPI Inflation (percent)": "0.9"
+  },
+  {
+    "Year": "2017",
+    "Month": "July",
+    "CPI-C Inflation (percent)": "2.4",
+    "WPI Inflation (percent)": "1.9"
+  },
+  {
+    "Year": "2017",
+    "Month": "August",
+    "CPI-C Inflation (percent)": "3.3",
+    "WPI Inflation (percent)": "3.2"
+  },
+  {
+    "Year": "2017",
+    "Month": "September",
+    "CPI-C Inflation (percent)": "3.3",
+    "WPI Inflation (percent)": "3.1"
+  },
+  {
+    "Year": "2017",
+    "Month": "October",
+    "CPI-C Inflation (percent)": "3.6",
+    "WPI Inflation (percent)": "3.7"
+  },
+  {
+    "Year": "2017",
+    "Month": "November",
+    "CPI-C Inflation (percent)": "4.9",
+    "WPI Inflation (percent)": "4"
+  },
+  {
+    "Year": "2017",
+    "Month": "December",
+    "CPI-C Inflation (percent)": "5.2",
+    "WPI Inflation (percent)": "3.6"
+  },
+  {
+    "Year": "2018",
+    "Month": "January",
+    "CPI-C Inflation (percent)": "5.1",
+    "WPI Inflation (percent)": "3"
+  },
+  {
+    "Year": "2018",
+    "Month": "February",
+    "CPI-C Inflation (percent)": "4.4",
+    "WPI Inflation (percent)": "2.7"
+  },
+  {
+    "Year": "2018",
+    "Month": "March",
+    "CPI-C Inflation (percent)": "4.3",
+    "WPI Inflation (percent)": "2.7"
+  },
+  {
+    "Year": "2018",
+    "Month": "April",
+    "CPI-C Inflation (percent)": "4.6",
+    "WPI Inflation (percent)": "3.6"
+  },
+  {
+    "Year": "2018",
+    "Month": "May",
+    "CPI-C Inflation (percent)": "4.9",
+    "WPI Inflation (percent)": "4.8"
+  },
+  {
+    "Year": "2018",
+    "Month": "June",
+    "CPI-C Inflation (percent)": "4.9",
+    "WPI Inflation (percent)": "5.7"
+  },
+  {
+    "Year": "2018",
+    "Month": "July",
+    "CPI-C Inflation (percent)": "4.2",
+    "WPI Inflation (percent)": "5.3"
+  },
+  {
+    "Year": "2018",
+    "Month": "August",
+    "CPI-C Inflation (percent)": "3.7",
+    "WPI Inflation (percent)": "4.6"
+  },
+  {
+    "Year": "2018",
+    "Month": "September",
+    "CPI-C Inflation (percent)": "3.7",
+    "WPI Inflation (percent)": "5.2"
+  },
+  {
+    "Year": "2018",
+    "Month": "October",
+    "CPI-C Inflation (percent)": "3.4",
+    "WPI Inflation (percent)": "5.5"
+  },
+  {
+    "Year": "2018",
+    "Month": "November",
+    "CPI-C Inflation (percent)": "2.3",
+    "WPI Inflation (percent)": "4.5"
+  },
+  {
+    "Year": "2018",
+    "Month": "December",
+    "CPI-C Inflation (percent)": "2.1",
+    "WPI Inflation (percent)": "3.5"
+  },
+  {
+    "Year": "2019",
+    "Month": "January",
+    "CPI-C Inflation (percent)": "2",
+    "WPI Inflation (percent)": "2.8"
+  },
+  {
+    "Year": "2019",
+    "Month": "February",
+    "CPI-C Inflation (percent)": "2.6",
+    "WPI Inflation (percent)": "2.9"
+  },
+  {
+    "Year": "2019",
+    "Month": "March",
+    "CPI-C Inflation (percent)": "2.9",
+    "WPI Inflation (percent)": "3.1"
+  },
+  {
+    "Year": "2019",
+    "Month": "April",
+    "CPI-C Inflation (percent)": "3",
+    "WPI Inflation (percent)": "3.2"
+  },
+  {
+    "Year": "2019",
+    "Month": "May",
+    "CPI-C Inflation (percent)": "3.1",
+    "WPI Inflation (percent)": "2.8"
+  },
+  {
+    "Year": "2019",
+    "Month": "June",
+    "CPI-C Inflation (percent)": "3.2",
+    "WPI Inflation (percent)": "2"
+  },
+  {
+    "Year": "2019",
+    "Month": "July",
+    "CPI-C Inflation (percent)": "3.2",
+    "WPI Inflation (percent)": "1.2"
+  },
+  {
+    "Year": "2019",
+    "Month": "August",
+    "CPI-C Inflation (percent)": "3.3",
+    "WPI Inflation (percent)": "1.2"
+  },
+  {
+    "Year": "2019",
+    "Month": "September",
+    "CPI-C Inflation (percent)": "4",
+    "WPI Inflation (percent)": "0.3"
+  },
+  {
+    "Year": "2019",
+    "Month": "October",
+    "CPI-C Inflation (percent)": "4.6",
+    "WPI Inflation (percent)": "0"
+  },
+  {
+    "Year": "2019",
+    "Month": "November",
+    "CPI-C Inflation (percent)": "5.5",
+    "WPI Inflation (percent)": "0.6"
+  },
+  {
+    "Year": "2019",
+    "Month": "December",
+    "CPI-C Inflation (percent)": "7.4",
+    "WPI Inflation (percent)": "2.6"
+  },
+  {
+    "Year": "2020",
+    "Month": "January",
+    "CPI-C Inflation (percent)": "7.6",
+    "WPI Inflation (percent)": "3.1"
+  },
+  {
+    "Year": ""
+  }
 ]
