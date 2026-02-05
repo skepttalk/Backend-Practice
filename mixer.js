@@ -3,6 +3,7 @@ let regulator = "slow";
 let speed = 0;
 
 
+
 function MixerController() {
 
   if (mixerSwitch === "on") {
