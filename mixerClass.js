@@ -21,7 +21,7 @@ class Mixer {
 
   timer(seconds) {
     if (this.switch === "on") {
-      console.log("Timer Started ⏳");
+      console.log("Timer Started ");
 
       setTimeout(() => {
         console.log("Timer Done  Turning OFF Mixer");

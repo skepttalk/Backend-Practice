@@ -55,7 +55,7 @@ class Mixer {
     this.switch = "off";
     this.regulator = "slow";
     this.speed = 0;
-  }
+  }   
 
   start() {
     if (this.switch === "on") {
@@ -84,10 +84,41 @@ class Mixer {
       console.log("Timer Started ");
 
       setTimeout(() => {
-        console.log("Timer Done → Turning OFF Mixer");
+        console.log("Timer Done  Mixer off");
         this.switch = "off";
         this.start();
       }, seconds * 1000);
     }
   }
 }
+
+
+
+const motor = new Motor("AC");
+const material = new Material("Stainless Steel");
+const blade = new Blade("Wet Grinding Blade");
+const jar = new Jar("dry Jar", material, blade);
+const coupler = new Coupler("plastic");
+
+
+const mixer = new Mixer(motor, jar, coupler);
+
+
+mixer.switch = "on";
+mixer.regulator = "fast";
+
+
+mixer.start();
+
+mixer.timer(5);
+
+
+
+
+
+
+
+
+
+
+
