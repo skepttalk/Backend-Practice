@@ -77,3 +77,4 @@ papa.will = true;
 
 // Output dekhne ke liye
 papa.showDetails();
+
