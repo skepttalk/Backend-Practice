@@ -1,4 +1,4 @@
-class Person {
+class Person { 
     constructor(name,age){
          this.name = name;
         this.age = age;
@@ -20,7 +20,7 @@ class student extends Person {
     }
 
     study(){
-        console.log(`student name:${this.name} and age ${this.age} and course:${this.course}`)
+        console.log(`student name:${this.name} and age ${this.age} year old and course:${this.course}`)
     }
 }
 
