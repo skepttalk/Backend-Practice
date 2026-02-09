@@ -75,6 +75,6 @@ const papa = new Person("Papa", 60);
 // Will execute karne ke liye setter call
 papa.will = true;
 
-// Output dekhne ke liye
+// Output dekhne ke liye  
 papa.showDetails();
 
