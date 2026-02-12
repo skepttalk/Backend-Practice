@@ -9,3 +9,16 @@ for (let i = n; i >= 0; i--) {
 }
 
 console.log("array reverse", newarr)
+
+
+let str = "kuldeep"
+
+let m = str.length-1
+
+let newstr = "";
+
+for(let j=m; j>=0; j--){
+    newstr +=  str[j]
+}
+
+console.log("string reversed:",newstr)
