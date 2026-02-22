@@ -1,5 +1,5 @@
-let str = "bus";
-let nstr = "sub";
+let str = "silent";
+let nstr = "listen";
 
 if (str.length !== nstr.length) {
     console.log("Not an anagram");
