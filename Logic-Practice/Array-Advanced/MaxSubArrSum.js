@@ -1,13 +1,18 @@
-let arr = [-2,1,-3,4,-1,2,1,-5,4]
+let arr = [-2,1,-3,4,-1,2,1,-5,4];
 
-let sum = "";
+let currentSum = 0;
+let maxSum = -Infinity;
 
-for(let i=0; i<arr.length;i++){
-    if(!sum.includes(arr[i])){
-       sum += arr[i]
+for (let i = 0; i < arr.length; i++) {
+    currentSum += arr[i];
+
+    if (currentSum > maxSum) {
+        maxSum = currentSum;
     }
-    else{
-        break;
+
+    if (currentSum < 0) {
+        currentSum = 0;
     }
 }
-console.log(sum)
+
+console.log(maxSum);
